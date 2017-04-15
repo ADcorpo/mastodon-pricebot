@@ -11,5 +11,5 @@
 	path = thirdparty/six
 	url = https://github.com/benjaminp/six.git
 [submodule "thirdparty/requests"]
-	path = thirdparty/requests
+	path = thirdparty/requests-git
 	url = https://github.com/kennethreitz/requests.git
