@@ -10,3 +10,6 @@
 [submodule "thirdparty/six"]
 	path = thirdparty/six
 	url = https://github.com/benjaminp/six.git
+[submodule "thirdparty/requests"]
+	path = thirdparty/requests
+	url = https://github.com/kennethreitz/requests.git
