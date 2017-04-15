@@ -7,3 +7,6 @@
 [submodule "thirdparty/dateutil"]
 	path = thirdparty/dateutil-git
 	url = https://github.com/dateutil/dateutil.git
+[submodule "thirdparty/six"]
+	path = thirdparty/six
+	url = https://github.com/benjaminp/six.git
