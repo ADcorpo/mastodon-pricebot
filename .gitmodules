@@ -1,0 +1,9 @@
+[submodule "thirdparty/python3-krakenex"]
+	path = thirdparty/python3-krakenex
+	url = https://github.com/veox/python3-krakenex.git
+[submodule "thirdparty/Mastodon.py"]
+	path = thirdparty/Mastodon.py
+	url = https://github.com/halcy/Mastodon.py.git
+[submodule "thirdparty/dateutil"]
+	path = thirdparty/dateutil
+	url = https://github.com/dateutil/dateutil.git
