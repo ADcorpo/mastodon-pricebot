@@ -8,9 +8,9 @@ this will change in the near future.
 
 from mastodon import Mastodon
 
-print("Please enter the full URL to your instance")
-mastodon_instance = input()
+import settings
+
 
 Mastodon.create_app('MoneroPriceBot',
-                    api_base_url=mastodon_instance,
+                    api_base_url=settings.INSTANCE_URL,
                     to_file='apptoken.cfg')

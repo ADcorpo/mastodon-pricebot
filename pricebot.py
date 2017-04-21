@@ -1,6 +1,7 @@
 import krakenex
 from mastodon import Mastodon
 
+import settings
 from exceptions import *
 
 
@@ -15,7 +16,7 @@ if xmr_price['error'] != []:
 
 mastodon = Mastodon(client_id="apptoken.cfg",
                     access_token="usertoken.cfg",
-                    api_base_url="https://mastodon.hackerlab.fr")
+                    api_base_url=settings.INSTANCE_URL)
 
 mastodon.toot("Latest Monero price according to kraken: \n {0} USD \n {1} EUR".format(
     xmr_price["result"]["XXMRZUSD"]["a"][0],

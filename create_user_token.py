@@ -1,11 +1,13 @@
 from mastodon import Mastodon
 
-mastodon_instance = input()
+import settings
+
+
 username = input()
 password = input()
 
 mastodon = Mastodon(client_id="apptoken.cfg",
-                    api_base_url=mastodon_instance)
+                    api_base_url=settings.INSTANCE_URL)
 
 mastodon.log_in(username,
                 password,
