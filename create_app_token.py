@@ -11,6 +11,6 @@ from mastodon import Mastodon
 import settings
 
 
-Mastodon.create_app('MoneroPriceBot',
+Mastodon.create_app(settings.APP_NAME,
                     api_base_url=settings.INSTANCE_URL,
                     to_file='apptoken.cfg')
