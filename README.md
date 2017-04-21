@@ -4,12 +4,7 @@ This is a quick'n'dirty solution to update a Mastodon account with the price of 
 
 ## How to use it
 
-- clone this repository
-- be sure to initialize submodules
-- set your PYTHONPATH to include the «thirdparty» directory
-- run «create_app_token.py» to generate the app's login token
-- run «create_user_token.py» to generate the user's login token (It's not clear ATM but you have to input 3 things: the full instance URL, the email address of the account you'll be tooting from, and the password)
-- from now on, running «pricebot.py» will get the latest price of a cryptocurrency from Kraken (this is currently hardcoded to XMR because well, the whole thing is a work in progress)
+This is a work in progress. Usage will change as I experiment.
 
 ## What the hell this is horrible
 
