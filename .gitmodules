@@ -14,5 +14,5 @@
 	path = thirdparty/requests-git
 	url = https://github.com/kennethreitz/requests.git
 [submodule "thirdparty/pytz"]
-	path = thirdparty/pytz
+	path = thirdparty/pytz-git
 	url = https://github.com/stub42/pytz.git
