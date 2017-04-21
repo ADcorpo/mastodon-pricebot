@@ -13,3 +13,6 @@
 [submodule "thirdparty/requests"]
 	path = thirdparty/requests-git
 	url = https://github.com/kennethreitz/requests.git
+[submodule "thirdparty/pytz"]
+	path = thirdparty/pytz
+	url = https://github.com/stub42/pytz.git
