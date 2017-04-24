@@ -21,4 +21,4 @@ mastodon = Mastodon(client_id="apptoken.cfg",
 mastodon.status_post("Latest Monero price according to kraken: \n {0} USD \n {1} EUR".format(
     xmr_price["result"]["XXMRZUSD"]["a"][0],
     xmr_price["result"]["XXMRZEUR"]["a"][0]),
-visibility="unlisted")
+                     visibility="unlisted")
