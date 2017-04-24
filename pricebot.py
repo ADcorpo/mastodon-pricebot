@@ -18,6 +18,7 @@ mastodon = Mastodon(client_id="apptoken.cfg",
                     access_token="usertoken.cfg",
                     api_base_url=settings.INSTANCE_URL)
 
-mastodon.toot("Latest Monero price according to kraken: \n {0} USD \n {1} EUR".format(
+mastodon.status_post("Latest Monero price according to kraken: \n {0} USD \n {1} EUR".format(
     xmr_price["result"]["XXMRZUSD"]["a"][0],
-    xmr_price["result"]["XXMRZEUR"]["a"][0]))
+    xmr_price["result"]["XXMRZEUR"]["a"][0]),
+visibility="unlisted")
